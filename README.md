@@ -3,13 +3,13 @@ Download And Run [Cisco Packet Tracer - 8.0.1 [AppImage]](https://github.com/sag
 
 1. Download pkg2appimage tool and make it executable.
    ```shell
-   wget https://github.com/sagarkhandve/PacketTracer/releases/download/v8.0.1/PacketTracer-8.0.1.AppImage
-   chmod +x PacketTracer-8.0.1.AppImage
+   wget https://github.com/sagarkhandve/PacketTracer-8.0.1/releases/download/v8.0.1/PacketTracer-8.0.1_x86_64.AppImage
+   chmod +x PacketTracer-8.0.1_x86_64.AppImage
    ```
 2. Run:
 
    ```shell
-   ./PacketTracer-8.0.1.AppImage
+   ./PacketTracer-8.0.1_x86_64.AppImage
    ```
 
 A configuration for [pkg2appimage](https://github.com/AppImage/pkg2appimage) to build Packet Tracer in AppImage form.
