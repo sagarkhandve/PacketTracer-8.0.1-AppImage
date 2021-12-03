@@ -14,9 +14,9 @@ ingredients:
     - python3-pyqt5
     - gnupg2
   script:
-    - FILENAME=CiscoPacketTracer_810_Ubuntu_64bit
+    - FILENAME=CiscoPacketTracer_810_Ubuntu_64bit.deb
     - [ -f ../"$FILENAME" ] && ln -sf ../"$FILENAME" .
-    - [ -f ../"$FILENAME" ] || wget -c https://archive.org/download/cisco-packet-tracer-801-ubuntu-64bit/CiscoPacketTracer_810_Ubuntu_64bit
+    - [ -f ../"$FILENAME" ] || wget -c https://archive.org/download/cisco-packet-tracer-801-ubuntu-64bit/CiscoPacketTracer_810_Ubuntu_64bit.deb
     - wget -c https://raw.githubusercontent.com/konradmb/PacketTracer-AppImage/master/etc/PacketTracerSettingsFix.py
     - chmod +x PacketTracerSettingsFix.py
     
