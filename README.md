@@ -1,6 +1,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
-Download And Run [Cisco Packet Tracer - 8.0.1 [AppImage]](https://github.com/sagarkhandve/PacketTracer/releases/download/v8.0.1/PacketTracer-8.0.1.AppImage)
+## PacketTracer-8.0.1
+
+Download And Run:
 
 1. Download pkg2appimage tool and make it executable.
    ```shell
